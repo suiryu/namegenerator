@@ -22,5 +22,5 @@ int main() {
     strcpy(b[4], "Brown");
     int x = rand() % 7;
     int y = rand() % 5;
-      printf("Your new random name is: %s %s\n", a[x], b[y]);
+    printf("Your new random name is: %s %s\n", a[x], b[y]);
 }
