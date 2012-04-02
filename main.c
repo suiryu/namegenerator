@@ -14,13 +14,18 @@ int main() {
     strcpy(a[4], "Ryan");
     strcpy(a[5], "Richard");
     strcpy(a[6], "Thomas");
+    strcpy(a[7], "Jennifer");
+    strcpy(a[8], "Kim");
+    strcpy(a[9], "Laura");
+    strcpy(a[10], "Elaine");
+    strcpy(a[11], "Allison");
     char b[11][12];
     strcpy(b[0], "Smith");
     strcpy(b[1], "Johnson");
     strcpy(b[2], "Williams");
     strcpy(b[3], "Jones");
     strcpy(b[4], "Brown");
-    int x = rand() % 7;
+    int x = rand() % 12;
     int y = rand() % 5;
     printf("Your new random name is: %s %s\n", a[x], b[y]);
 }
